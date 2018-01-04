@@ -3,7 +3,7 @@ def input_to_index(str)
 end
 
 def move(board_arr, index, char='X')
-  update_array_at_with(board_arr. index, char)
+  update_array_at_with(board_arr, index, char)
   true
 end
 
